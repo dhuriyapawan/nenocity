@@ -29,7 +29,8 @@ jobs:
       - name: Build and push image
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./app
+          file: ./app/Dockerfile
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/tatris:latest
