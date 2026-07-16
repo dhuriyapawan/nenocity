@@ -35,3 +35,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/tatris:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/tatris:${{ github.sha }}
+ 
