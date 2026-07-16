@@ -32,5 +32,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/neon-city:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/neon-city:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/tatris:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/tatris:${{ github.sha }}
