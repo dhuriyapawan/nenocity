@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - feature0.0.1
+      - tatris
   workflow_dispatch:
 
 jobs:
