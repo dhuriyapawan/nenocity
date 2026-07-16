@@ -1,0 +1,7 @@
+1. Get the application URL by running:
+   kubectl get svc {{ include "tetris.fullname" . }}
+
+2. If using NodePort, open browser at:
+   http://<node-ip>:{{ .Values.service.nodePort | default .Values.service.port }}
+
+3. If using Ingress, add the host entry and enable ingress in values.

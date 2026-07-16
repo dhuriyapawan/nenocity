@@ -1,0 +1,14 @@
+{
+  "name": "tatris-game",
+  "version": "1.0.0",
+  "description": "A web-based Tetris-style game.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"No build step configured.\"",
+    "test": "echo \"No tests configured.\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
