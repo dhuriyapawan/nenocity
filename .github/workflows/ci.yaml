@@ -31,5 +31,5 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/app1-hello:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/app1-hello:${{ github.sha }}
-          file: ./node/python/Dockerfile
+          file: ./python/Dockerfile
           context: .
