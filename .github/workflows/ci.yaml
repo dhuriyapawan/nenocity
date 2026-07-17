@@ -5,7 +5,7 @@ on:
     branches: pythonapp
 
 jobs:
-  docker:
+  docker: 
     runs-on: ubuntu-latest
 
     steps:
