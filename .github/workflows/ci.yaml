@@ -32,4 +32,5 @@ jobs:
             ${{ secrets.DOCKERHUB_USERNAME }}/app1-hello:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/app1-hello:${{ github.sha }}
           file: ./python/Dockerfile
-          context: .
+          context: ./python
+ 
